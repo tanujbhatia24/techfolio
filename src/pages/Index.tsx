@@ -36,7 +36,7 @@ const Index = () => {
             </Button>
             <Button variant="outline" className="border-[#0EA5E9] text-[#0EA5E9] hover:bg-[#0EA5E9]/10">
               <span className="mr-2">📍</span>
-              Gurgaon, Delhi, India
+              Delhi, India
             </Button>
           </div>
 
@@ -69,7 +69,7 @@ const Index = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#8B5CF6] to-[#D946EF] text-white rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
-            <span>View My Certificates</span>
+            <span>Certificates</span>
             <ExternalLink className="w-4 h-4" />
           </a>
         </div>
@@ -86,7 +86,7 @@ const Index = () => {
               <Cloud className="w-12 h-12 mb-4 text-[#0EA5E9] group-hover:scale-110 transition-transform" />
               <h3 className="text-xl font-semibold mb-2 group-hover:text-[#0EA5E9] transition-colors">Cloud & Infrastructure</h3>
               <p className="text-muted-foreground">
-                Azure, Google Cloud Platform, Linux, Cloud Computing
+                AWS, Linux, Cloud Computing, Ansible
               </p>
             </CardContent>
           </Card>
@@ -96,7 +96,7 @@ const Index = () => {
               <Code className="w-12 h-12 mb-4 text-[#8B5CF6] group-hover:scale-110 transition-transform" />
               <h3 className="text-xl font-semibold mb-2 group-hover:text-[#8B5CF6] transition-colors">Programming</h3>
               <p className="text-muted-foreground">
-                Python (Proficient), SQL, Scripting
+                Python, SQL, Scripting
               </p>
             </CardContent>
           </Card>
@@ -116,7 +116,7 @@ const Index = () => {
               <Database className="w-12 h-12 mb-4 text-[#F97316] group-hover:scale-110 transition-transform" />
               <h3 className="text-xl font-semibold mb-2 group-hover:text-[#F97316] transition-colors">Tools & Methods</h3>
               <p className="text-muted-foreground">
-                Agile, Scrum, ServiceNow, Jira
+                Agile, Scrum, ServiceNow, Jira, Git
               </p>
             </CardContent>
           </Card>
