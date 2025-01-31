@@ -8,7 +8,8 @@ import {
   Server, 
   Database,
   Cloud,
-  Code
+  Code,
+  ExternalLink
 } from "lucide-react";
 
 const Index = () => {
@@ -41,16 +42,36 @@ const Index = () => {
 
           {/* Social Links */}
           <div className="flex gap-4 mt-8">
+            <a href="https://github.com/tanujbhatia24" target="_blank" rel="noopener noreferrer">
+              <Button 
+                variant="ghost" 
+                size="icon"
+                className="hover:bg-[#333]/10 hover:text-[#333] transition-all duration-300 transform hover:scale-110"
+              >
+                <Github className="w-5 h-5" />
+              </Button>
+            </a>
             <a href="https://linkedin.com/in/tanujbhatia" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="ghost" 
                 size="icon"
-                className="hover:bg-[#0EA5E9]/10 hover:text-[#0EA5E9] transition-all duration-300 transform hover:scale-110"
+                className="hover:bg-[#0077B5]/10 hover:text-[#0077B5] transition-all duration-300 transform hover:scale-110"
               >
                 <Linkedin className="w-5 h-5" />
               </Button>
             </a>
           </div>
+
+          {/* Certificates Link */}
+          <a 
+            href="https://github.com/tanujbhatia24/Tanuj_Certificates" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#8B5CF6] to-[#D946EF] text-white rounded-lg hover:opacity-90 transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            <span>View My Certificates</span>
+            <ExternalLink className="w-4 h-4" />
+          </a>
         </div>
       </section>
 
